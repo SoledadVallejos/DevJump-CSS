@@ -1,0 +1,134 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  font-family: "Fredoka", sans-serif;
+  background-color: #fff0f6;
+  color: #425852;
+}
+
+/* Hearder */
+
+header {
+  height: 20vh;
+  background-color: #d7a9a9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-logo {
+  width: 11%;
+  margin-left: 20px;
+}
+
+.logo {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #454546;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #00986c;
+}
+
+.container-menu {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Main */
+
+main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  /* Trabajo con la caja | Con esto dentro del main, centro la caja contenedora de barras */
+}
+
+.container-barra {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  /* Trabajo con los elementos de adentro | Centro en horizontal la caja  */
+}
+
+.barra {
+  background-color: #bababa;
+  width: 500px;
+  height: 30px;
+  margin: 15px;
+  padding: 3px;
+  border-radius: 100px;
+}
+
+.level {
+  height: 30px;
+  border-radius: 100px;
+}
+
+.first {
+  width: 10%;
+  background-color: #78deab;
+}
+
+.second {
+  width: 25%;
+  background-color: #78deab;
+}
+
+.fifth {
+  width: 50%;
+  background-color: #78deab;
+}
+
+.seventh {
+  width: 75%;
+  background-color: #78deab;
+}
+
+.nineth {
+  width: 90%;
+  background-color: #78deab;
+}
+
+p {
+  color: aliceblue;
+  padding: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #c88e83;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.author {
+  color: #454546;
+  text-align: center;
+  font-weight: bolder;
+}

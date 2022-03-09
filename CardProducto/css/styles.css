@@ -1,0 +1,171 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  background-color: #fff0f6;
+  font-family: "Fredoka", sans-serif;
+  color: #425852;
+}
+
+/* Hearder */
+header {
+  height: 20vh;
+  background-color: #d7a9a9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-logo {
+  width: 11%;
+  margin-left: 20px;
+}
+
+.logo {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #454546;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #00986c;
+}
+
+.container-menu {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-card {
+  margin: 25px;
+  background-color: #5dc1b9;
+  width: 540px;
+  border-radius: 18px;
+  padding-top: 25px;
+  box-shadow: 0 7px 20px rgb(0 0 0 / 70%);
+}
+
+.container-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px;
+}
+img {
+  width: 180px;
+  /*   display: block;
+  margin: 20px auto 55px; */ /* Otra manera de centar la imagen sin hacer uso del la caja contenedora*/
+}
+
+.container-product {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background: #0c1f2c;
+  padding: 40px;
+  border-radius: 0px 0px 18px 18px;
+}
+p {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  line-height: 46px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  line-height: normal;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.container-info {
+  /*   display: flex;
+  justify-content: space-evenly; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.info-p {
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 90px;
+  border: 1px solid #42a8a1;
+  margin: 0 5px;
+}
+
+.info-p:hover {
+  background-color: #57776e;
+  cursor: pointer;
+}
+
+.container-price {
+  margin-top: 35px;
+}
+.price {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+button {
+  width: 200px;
+  height: 48px;
+  background: #30827b;
+  border-radius: 90px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 0 24px;
+  color: #fff;
+  border: 0;
+}
+
+button:hover {
+  background-color: #5dc1b9;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #c88e83;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.author {
+  color: #454546;
+  text-align: center;
+  font-weight: bolder;
+}

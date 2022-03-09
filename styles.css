@@ -1,0 +1,100 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  background-color: #fff0f6;
+  font-family: "Fredoka", sans-serif;
+  color: #425852;
+}
+
+/* Hearder */
+header {
+  height: 20vh;
+  background-color: #d7a9a9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-logo {
+  width: 11%;
+  margin-left: 20px;
+}
+
+.logo {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #454546;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #00986c;
+}
+
+.container-menu {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Main */
+
+main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container-detail {
+  width: 30%;
+  display: flex;
+  height: 45%;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 37px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container-image {
+  width: 40%;
+}
+
+.img-cat {
+  width: 95%;
+}
+
+/* Footer */
+footer {
+  background-color: #c88e83;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.author {
+  color: #454546;
+  text-align: center;
+  font-weight: bolder;
+}
