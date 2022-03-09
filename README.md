@@ -1,5 +1,5 @@
 # DevJump-CSS
-<img width="30%" height="30%" align="top-center" alt="Github" src="https://user-images.githubusercontent.com/84512521/157531489-3b040905-333d-4472-9aa6-d2a1e113a494.png" />
+<img  width="30%" height="30%"  alt="Github" src="https://user-images.githubusercontent.com/84512521/157531489-3b040905-333d-4472-9aa6-d2a1e113a494.png" />
 
 
 ## Descripción y contexto
